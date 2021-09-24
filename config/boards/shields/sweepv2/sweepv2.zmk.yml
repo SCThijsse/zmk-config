@@ -1,0 +1,13 @@
+file_format: "1"
+id: sweepv2
+name: SweepV2
+type: shield
+url: https://github.com/davidphilipbarr/Sweep
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
+  - sweepv2_left
+  - sweepv2_right
+

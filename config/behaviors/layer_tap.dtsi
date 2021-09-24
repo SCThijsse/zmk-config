@@ -1,0 +1,13 @@
+/*
+ * Copyright (c) 2021 Sjoerd Thijsse
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+&lt {
+        tapping-term-ms = <200>;
+        flavor = "tap-preferred";
+};
+
+// vim: filetype=dts
+

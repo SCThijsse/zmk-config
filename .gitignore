@@ -1,0 +1,7 @@
+build/
+modules/
+tools/
+.west/
+zephyr/
+zmk/
+zmk-shields/
