@@ -14,8 +14,8 @@
 
 #define THUMBS_2L &lt FUNCTI TAB &lt NAVIGA SPACE
 #define THUMBS_3L &kp ESC        &lt FUNCTI TAB   &lt NAVIGA SPACE
-#define THUMBS_2R &mt NUMBER RET &lt SYMBOL BSPC
-#define THUMBS_3R &mt NUMBER RET &lt SYMBOL BSPC  &kp DEL
+#define THUMBS_2R &lt NUMBER RET &lt SYMBOL BSPC
+#define THUMBS_3R &lt NUMBER RET &lt SYMBOL BSPC  &kp DEL
 
 #define QWERTY_L2 &kp Q          &kp W        &kp E        &kp R        &kp T
 #define QWERTY_L3 &hm LCTRL A    &hm LALT S   &kp D        &hm LSHFT F  &kp G
@@ -26,11 +26,11 @@
 #define QWERTY_R4 &kp N          &kp M        &kp COMMA    &kp DOT      &sf LSHFT FSLH
 
 #define DVORAK_L2 &kp Q          &kp COMMA    &kp DOT      &kp P        &kp Y
-#define DVORAK_L3 &hm LCTRL A    &hm LALT O   &kp E        &hm LSHFT U  &kp I
+#define DVORAK_L3 &hmd LCTRL A   &hmd LALT O  &kp E        &hmd LSHFT U &kp I
 #define DVORAK_L4 &sf LSHFT SEMI &kp X        &kp J        &kp K        &kp X
 
 #define DVORAK_R2 &kp F          &kp G        &kp C        &kp R        &kp L
-#define DVORAK_R3 &kp D          &hm LSHFT H  &kp T        &hm LALT N   &hm LCTRL S
+#define DVORAK_R3 &kp D          &hmd LSHFT H &kp T        &hmd LALT N  &hmd LCTRL S
 #define DVORAK_R4 &kp B          &kp M        &kp W        &kp V        &sf LSHFT Z
 
 #define OUTERS_L2 &trans         &trans       &trans       &trans       &trans
