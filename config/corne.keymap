@@ -5,9 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
 #include "include/definitions.c"
 
 / {
@@ -16,59 +13,59 @@
                 compatible = "zmk,keymap";
                 qwerty_layer {
                         bindings = <
-                                &none  QWERTY_L2         QWERTY_R2     &none
-                                &none  QWERTY_L3         QWERTY_R3     &none
-                                &none  QWERTY_L4         QWERTY_R4     &none
-                                &none  THUMBS_2L         THUMBS_2R     &none
+                                &trans    QWERTY_L2  QWERTY_R2 &trans
+                                &trans    QWERTY_L3  QWERTY_R3 &trans
+                                &trans    QWERTY_L4  QWERTY_R4 &trans
+                                &trans    THUMBS_2L  THUMBS_2R &trans
                         >;
                 };
                 dvorak_layer {
                         bindings = <
-                                &none  DVORAK_L2         DVORAK_R2     &none
-                                &none  DVORAK_L3         DVORAK_R3     &none
-                                &none  DVORAK_L4         DVORAK_R4     &none
-                                &trans &trans &trans     &trans &trans &trans
+                                &trans    DVORAK_L2  DVORAK_R2 &trans
+                                &trans    DVORAK_L3  DVORAK_R3 &trans
+                                &trans    DVORAK_L4  DVORAK_R4 &trans
+                                          THUMBS_2C  THUMBS_2C
                         >;
                 };
                 mod_layer {
                         bindings = <
-                                &kp ESC   OUTERS_L2      OUTERS_R2     &kp BSPC
-                                &kp LCTRL OUTERS_L3      OUTERS_R3     &kp SQT
-                                &kp LSHFT OUTERS_L4      OUTERS_R4     &kp RSHFT
-                                &kp ESC   &trans &trans  &trans &trans &kp DEL
+                                &kp ESC   OUTERS_L2  OUTERS_R2 &kp BSPC
+                                &kp LCTRL OUTERS_L3  OUTERS_R3 &kp SQT
+                                &kp LSHFT OUTERS_L4  OUTERS_R4 &kp RSHFT
+                                          THUMBS_3C  THUMBS_3C
                         >;
                 };
                 nav_layer {
                         bindings = <
-                                &none     NAVIGA_L2      NAVIGA_R2     &none
-                                &none     NAVIGA_L3      NAVIGA_R3     &none
-                                &none     NAVIGA_L4      NAVIGA_R4     &none
-                                &trans    &trans &trans  &trans &trans &trans
+                                &trans    NAVIGA_L2  NAVIGA_R2 &trans
+                                &trans    NAVIGA_L3  NAVIGA_R3 &trans
+                                &trans    NAVIGA_L4  NAVIGA_R4 &trans
+                                          THUMBS_3C  THUMBS_3C
                         >;
                 };
                 function_layer {
                         bindings = <
-                                &none  FUNCTI_L2         FUNCTI_R2     &none
-                                &none  FUNCTI_L3         FUNCTI_R3     &none
-                                &none  FUNCTI_L4         FUNCTI_R4     &none
-                                &trans &trans &trans     &trans &trans &trans
+                                &trans    FUNCTI_L2  FUNCTI_R2 &trans
+                                &trans    FUNCTI_L3  FUNCTI_R3 &trans
+                                &trans    FUNCTI_L4  FUNCTI_R4 &trans
+                                          THUMBS_3C  THUMBS_3C
                         >;
                 };
 
                 number_layer {
                         bindings = <
-                                &none  NUMBER_L2         NUMBER_R2     &none
-                                &none  NUMBER_L3         NUMBER_R3     &none
-                                &none  NUMBER_L4         NUMBER_R4     &none
-                                       THUMBS_3N         &trans &trans &trans
+                                &trans    NUMBER_L2  NUMBER_R2 &trans
+                                &trans    NUMBER_L3  NUMBER_R3 &trans
+                                &trans    NUMBER_L4  NUMBER_R4 &trans
+                                          THUMBS_3N  THUMBS_3C
                         >;
                 };
                 symbol_layer {
                         bindings = <
-                                &none  SYMBOL_L2         SYMBOL_R2     &none
-                                &none  SYMBOL_L3         SYMBOL_R3     &none
-                                &none  SYMBOL_L4         SYMBOL_R4     &none
-                                       THUMBS_3S         &trans &trans &trans
+                                &trans    SYMBOL_L2  SYMBOL_R2 &trans
+                                &trans    SYMBOL_L3  SYMBOL_R3 &trans
+                                &trans    SYMBOL_L4  SYMBOL_R4 &trans
+                                          THUMBS_3S  THUMBS_3C
                         >;
                 };
         };

@@ -5,3 +5,4 @@ tools/
 zephyr/
 zmk/
 zmk-shields/
+*.uf2
