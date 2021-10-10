@@ -67,7 +67,7 @@
 
 #define NUMBER_R2 &kp C_VOL_UP      &bt BT_NXT       &bt BT_PRV       &bt BT_CLR   &reset
 #define NUMBER_R3 &kp C_VOL_DN      &kp LSHFT        &none            &kp LALT     &kp LCTRL
-#define NUMBER_R4 &kp C_MUTE        &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2 &boorloader
+#define NUMBER_R4 &kp C_MUTE        &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2 &bootloader
 
 #define THUMBS_2N &kp N0            &kp MINUS
 #define THUMBS_3N &kp DOT           &kp N0           &kp MINUS
